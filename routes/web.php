@@ -11,6 +11,7 @@
 |
 */
 
+<<<<<<< HEAD
 Route::get('customers','Customers@getAllCustomers');
 
 Route::get('customer/{id}','Customers@getCustomers');
@@ -29,3 +30,8 @@ Route::post('customer','Customers@addCustomer');
 // Route::put('customers/{id}', function(){
 //     return 'hahahaha';
 // })
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> 00f993e6c1cc11e7278c8c6d5e16b0ed049746b9
